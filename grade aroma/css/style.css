@@ -1,0 +1,197 @@
+
+ /*  class selctors */
+
+ .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .rest-name {
+      display: flex;
+      margin-top: 15%;
+      flex-direction: column;
+      align-items: center;
+      font-size: x-large;
+  }
+
+
+
+.pad-side {
+    padding: 0 20px 0 20px;
+    font-size: 2em;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.reach {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+
+}
+
+.reach li {
+    font-size: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+.menu-food {
+        width: 50%;
+        float: left;
+ }
+
+
+
+
+.breakfast  {
+    font-size: 1.5em;
+ display: inline;
+text-align: center;
+}
+
+.breakfast p {
+    font-size: .7em;
+    padding: 0 150px;
+   
+    
+}
+
+.breakfast-2 {
+    font-size: 1.5em;
+ display: inline;
+ text-align: center;
+}
+
+.breakfast-2 p {
+    font-size: .7em;
+    padding: 0 150px;
+    
+}
+    
+
+.menu-con {
+    width: 50%;
+    float: right;
+}
+
+.voka,
+.rum,
+.whiskey {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+ 
+ 
+
+.drinks-col {
+    flex-direction: column;
+    padding: 0;
+    color: black;
+    font-size: 2.5em;
+    background-color: rgba(238, 238, 238, 0.192);
+}
+
+.list-nav {
+    color: whitesmoke;
+    text-transform: uppercase;
+    padding: 2px;
+    margin: 0;
+    font-size: 3em;
+    list-style: none;
+    
+}
+
+/* ELEMENT SELCTORS*/
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ul {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+ul p {
+    font-size: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+li {
+    list-style: none;
+    
+}
+
+
+header {
+  float: left;
+    width: 70%;
+    
+    
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+
+h2 {
+    font-size: 2.3em;
+    font-family: 'Fjalla One', sans-serif;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+
+h3 {
+    font-size: 2em;
+    font-family: 'Fjalla One', sans-serif;
+    margin: 0 50px;
+    border-bottom: solid black;
+    text-align: center;
+}
+
+
+
+
+section {
+  
+    margin-top: 100px;
+    
+}
+
+/* ID SELCTORS*/
+
+#photo {
+    background-image: url("../img/home.jpg");
+    background-size: cover;
+}
+
+#r-img {
+    background-image: url("../img/restruant.pic.jpg");
+    background-size: cover;
+}
+
+#alco {
+    background-image: url("../img/drinks.jpg");
+    background-size: cover;
+}
